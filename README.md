@@ -5,8 +5,9 @@ El proyecto usa flask y react
 # Ejecución
 
 1. `$docker build -t proyecto:latest`
-2. `$docker run --name project -d -p 5000:5000 --rm project:latest`
+2. `$docker run --name project -d -p 3000:3000 -p 5000:5000 --rm project:latest`
 3. `probar en http://localhost:3000. Esto abrirá la aplicación de react`
+
 
 # API
 
